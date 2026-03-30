@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
         message: 'API Sistem Manajemen Perpustakaan berjalan',
         version: '1.0.0',
         endpoints: {
-        books: '/books',
+        buku: '/books',
         },
     });
 });
